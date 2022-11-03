@@ -10,9 +10,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <script src="./script/index.js"></script>
 
-
-
-
     <title>Home brew</title>
 </head>
 
@@ -25,15 +22,14 @@
         </form>
         
         <form method="POST" action="./pages/victus.php">
-            <input class="nav-alertnative" value="Project Victus" type="submit">
+            <input class="nav-alertnative" value="Victus" type="submit">
+        </form>
+
+        <form action="https://www.github.com/mhmdalkhyyt" method="post">
+            <input type="submit" class="nav-alertnative" value="Github">
         </form>
         
-        
-        
-
     </div>
-
 </body>
 
 </html>
-
