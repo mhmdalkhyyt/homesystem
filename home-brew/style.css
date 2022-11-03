@@ -1,0 +1,76 @@
+:root{
+    --root-background-color: #001253;
+    --root-interface-background-color: #3E6D9C;
+    --root-buttons-background-color: #E14D2A;
+    --root-buttons-background-color-hover: #e32d02;
+    --root-wildcard-color: #E14D2A;
+}
+
+body {
+
+    padding-top: 10%;
+    background-color: var(--root-background-color);
+}
+
+
+h1{
+
+    font-family: 'Honey Script', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    color: #4649FF;
+    border-radius: 20px;
+    text-shadow: -1px -1px 0 var(--root-buttons-background-color), 1px -1px 0 var(--root-interface-background-color), -1px 1px 0 var(--root-background-color), 2px 2px 0 var(--root-background-color);
+
+}
+
+
+.content-text {
+    background-color: var(--root-interface-background-color);
+
+}
+
+
+
+.simple-text{
+    color: whitesmoke;
+}
+
+.nav{
+    background-color: var(--root-interface-background-color);
+    border: tomato 3px solid;
+    box-sizing: border-box;
+    width: 10%;
+    padding: 10px;
+}
+
+.nav-alertnative {
+    margin: 10px 0;
+    padding: 5px;
+    background-color: var(--root-buttons-background-color);
+    opacity: 1;
+    text-decoration:solid;
+    color: whitesmoke;
+    border-left: var(--root-background-color) 15px solid;
+    border-bottom-left-radius: 7px;
+    border-top-left-radius: 7px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    outline: medium none;
+    text-decoration: none;
+    background: var(--root-buttons-background-color) none repeat scroll 0 0;
+    display: block;
+    font-weight:bold;
+    animation: moveToLeft 2s;
+    animation-delay: 1000ms;
+
+}
+
+
+.nav-alertnative:hover{
+    background-color: var(--root-buttons-background-color-hover);
+    opacity: 1;
+    width: 100%;
+    
+    
+}
